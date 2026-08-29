@@ -7,13 +7,14 @@
 A temporary test environment was deployed over the weekend by a junior contributor who bypassed several company governance standards, leaving the Azure subscription in a potentially non-compliant state. The investigation focused on identifying what was deployed, which governance controls failed, and what evidence could be documented without making changes.
 
 ## Environment 
-<!---
-Live multi-user Azure training tenant, Reader access."
---->
+Live multi-user Azure training tenant.
+
 ## Investigation
 <!---
 The core. Numbered steps IN YOUR OWN WORDS: what you looked at, what you found, what you concluded at each step. 6 to 12 screenshots of meaningful moments (portal views, query results, before/after).
 --->
+
+
 ## What broke / what surprised me
 <!---
 The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
