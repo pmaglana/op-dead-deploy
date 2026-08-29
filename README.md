@@ -1,4 +1,4 @@
-# Operation Dead Deploy: Investigating a misconfigured policy
+# Operation Dead Deploy: Investigating a misconfigured Azure policy
 
 ## Scenario
 <!---
