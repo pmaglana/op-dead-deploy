@@ -37,18 +37,41 @@ Resource groups > Select the RG > Deployments
 
 <img width="1319" height="640" alt="ss-deploy" src="https://github.com/user-attachments/assets/37d15308-4951-4d59-b1fe-25362146e55c" />
 
+</br>Step 4.</br>
+Policies are in place, naming are enforced and yet the slip up. Reason being? misconfigured policies, to verify let us: </br>
+First, check the policies. Got to the flagged Resource group > Policies.</br>
 
+
+<img width="1081" height="598" alt="ss-policy" src="https://github.com/user-attachments/assets/4b6f9622-113d-4a50-bf74-8b5aa321d319" />
+</br>
+
+</br>
+Notice that there's an Assignment name policy that is flagged as "Non-compliant". To determine why:</br>
+Click on Assignments > Select the Assignment name that has type Policy > </br>
+
+</br>
+<img width="1512" height="578" alt="ss-policy1" src="https://github.com/user-attachments/assets/7c4eab46-31ab-4bc9-9a84-bb58688edbe3" /></br>
+
+</br>
+This image shows the parameter value for policy is "Audit", which is the reason for the slip up.</br>
+
+</br>
+<img width="1105" height="525" alt="ss-policy2" src="https://github.com/user-attachments/assets/04115e43-74c3-4974-b6a8-e0dab78122a4" /></br>
 
 
 ## What broke / what surprised me
 <!---
 The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
 --->
+Even if everything was configured, the policy is present and was actively evaluating resources, with just one small slip up such as the this could cause major issues.
 ## Findings and recommendations
 <!---
 What you determined, plus 2 or 3 recommendations as if you were reporting to the resource owner.
 --->
+The deployment was still allowed despite being flagged as non-compliant this is because the resource group policy was incorrectly configured. The policy parameter value should be change from Audit to Deny for an effective naming requirements.
+
 ## What I learned
 <!---
 3 to 5 bullets. At least one technical, one "what I'd do differently."
 --->
+A policy being assigned does not necessarily mean it is enforcing compliance. Always verify theses policy assignment and parameters.
