@@ -1,3 +1,5 @@
+<img width="1774" height="402" alt="MadhatCh1-banner2048x334" src="https://github.com/user-attachments/assets/e69a98ef-fbb6-4981-b32c-30847466dba9" />
+
 # Operation Dead Deploy: Investigating a misconfigured Azure policy
 
 ## Scenario
@@ -21,12 +23,13 @@ This subscription follows Microsoft's naming convention. All but one is not foll
 Searching Resource group or click Resource group icon > Resource Manager > Locate and identify that particular RG.
 
 <img width="1686" height="327" alt="ss-rg" src="https://github.com/user-attachments/assets/3d1bbed4-48e4-4963-9e65-ac151f3e89c1" />
-<img width="642" height="517" alt="ss-rg1" src="https://github.com/user-attachments/assets/417f157b-29b7-4982-8e73-8410378ebdbe" />
+<img width="642" height="517" alt="ss-rg1" src="https://github.com/user-attachments/assets/206422f8-daf9-4ccf-a28b-b305e232c607" />
 
 </br>Step 2.</br>
 Dig deep in to the incident by referring to Tags. Tags can help identify what resources were made/deployed or configured incorrectly. Go to:</br>
 Resource groups > Select the Resource group in question > Tags > Look for the intern-flag and take note of its value(string).
 
+<img width="1905" height="718" alt="ss-tags" src="https://github.com/user-attachments/assets/cbd5b345-16d1-4170-abd8-2b639877d6f0" />
 
 ## What broke / what surprised me
 <!---
