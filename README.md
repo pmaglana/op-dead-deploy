@@ -74,4 +74,4 @@ The deployment was still allowed despite being flagged as non-compliant this is 
 <!---
 3 to 5 bullets. At least one technical, one "what I'd do differently."
 --->
-A policy being assigned does not necessarily mean it is enforcing compliance. Always verify theses policy assignment and parameters.
+A policy being assigned does not necessarily mean it is enforcing compliance. Always verify these policy assignments and parameters.
