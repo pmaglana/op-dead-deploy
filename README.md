@@ -26,10 +26,19 @@ Searching Resource group or click Resource group icon > Resource Manager > Locat
 <img width="642" height="517" alt="ss-rg1" src="https://github.com/user-attachments/assets/206422f8-daf9-4ccf-a28b-b305e232c607" />
 
 </br>Step 2.</br>
-Dig deep in to the incident by referring to Tags. Tags can help identify what resources were made/deployed or configured incorrectly. Go to:</br>
+Digging deep in to the incident by referring to Tags. Go to:</br>
 Resource groups > Select the Resource group in question > Tags > Look for the intern-flag and take note of its value(string).
 
 <img width="1905" height="718" alt="ss-tags" src="https://github.com/user-attachments/assets/cbd5b345-16d1-4170-abd8-2b639877d6f0" />
+
+</br>Step 3.</br>
+Looking for the source of the resource. All resource deployment has names, timestamp, status and these are stored at Deployments, to locate: </br>
+Resource groups > Select the RG > Deployments 
+
+<img width="1319" height="640" alt="ss-deploy" src="https://github.com/user-attachments/assets/37d15308-4951-4d59-b1fe-25362146e55c" />
+
+
+
 
 ## What broke / what surprised me
 <!---
