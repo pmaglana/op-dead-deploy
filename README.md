@@ -1,5 +1,6 @@
-<img width="1774" height="402" alt="MadhatCh1-banner2048x334" src="https://github.com/user-attachments/assets/e69a98ef-fbb6-4981-b32c-30847466dba9" />
 <a id="top"></a>
+<img width="1774" height="402" alt="MadhatCh1-banner2048x334" src="https://github.com/user-attachments/assets/e69a98ef-fbb6-4981-b32c-30847466dba9" />
+
   
 # Operation Dead Deploy: Investigating a misconfigured Azure policy
 
@@ -77,5 +78,7 @@ The deployment was still allowed despite being flagged as non-compliant this is 
 --->
 A policy being assigned does not necessarily mean it is enforcing compliance. Always verify these policy assignments and parameters.
 
+</br>
+</br>
 
-[⬆️ Back to Top](#top)
+<sub>[⬆️ Back to Top](#top)</sub>
